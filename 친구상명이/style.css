@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 400px;
+  
+  
+ 
+
+ 
+
+  
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-image: url(./image/다운로드.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  
+  
+}
+
+.gnb-logo img{
+  width: 200px;
+  height: 100px;
+  border-radius: 20%;
+  opacity: 0.8;
+  transition: all 400ms ease-in-out;
+}
+
+.gnb-logo img:hover{
+  transform: scale(3.0);
+
+}
+
+.main-main{
+  margin-top: 20px;
+  
+}
+
+.main-main>li>a{
+  color: rgba(58, 54, 60, 0.9);
+  font-weight: 700;
+  transition: all 400ms ease-in-out;
+}
+
+.main-main>li>a:hover{
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+.main-menu-list{
+  display: none;
+}
+
+.main-menu-list>li{
+  background-color:  rgba(204, 25, 129, 0.9);
+}
+
+.main-menu-list>li>button{
+  background-color:  rgba(25, 192, 204, 0.9);
+}
+
+.ddi{
+  width: 100vw;
+  height: 40px;
+  background-color: rgba(8, 8, 8, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 400ms ease-in-out;
+}
+
+.ddi:hover{
+  background-color: rgba(182, 208, 14, 0.906);
+}
+
+.ddi>p{
+  color:#fff;
+  transition: all 400ms ease-in-out;
+
+}
+
+.ddi>p:hover{
+  color: rgba(13, 14, 13, 0.906);
+  font-weight: 700;
+}
+
+main{
+  background-image: url(./image/다운로드.jpg);
+}
+
+.slide-box{
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+.slide-list{
+  width: 500vw;
+  display: flex;
+}
+
+.slide-list>li{
+  width: 100vw;
+}
+
+.slide-list>li>img{
+  width: 100%;
+}
+
+.slide-list>li>img{
+  width: 400px;
+}
+.slide-box{
+  
+  
+}
+
+.btn-list{
+  text-align: center;
+}
+
+.btn-list button{
+  background-color:  rgba(179, 233, 15, 0.9);
+  border: none;
+  opacity: 0.7;
+}
+
+.image-bb{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.image-list>li>img{
+  width:  300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid rgba(179, 233, 15, 0.9);
+  opacity: 0.3;
+  transition: all 400ms ease-in-out;
+  box-shadow: 5px 5px 5px #fff;
+}
+
+.image-list>li>img:hover{
+  opacity: 0.9;
+}
+
+.footer-list{
+  display: flex;
+  background-color: black;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list>li{
+  margin: 0 20px;
+  
+}
+
+.footer-list>li>a{
+  color: rgba(26, 233, 15,.9);
+}
+
+aside{
+  width: 200px;
+  height: 200vh;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 100;
+  background-color: greenyellow;
+  text-align: center;
+  overflow: scroll;
+  display: none;
+  
+}
+
+.sid{
+  margin-top: 30px;
+  
+  
+}
+
+.sid>li{
+  margin: 20px 0;
+}
