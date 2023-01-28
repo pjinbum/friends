@@ -56,15 +56,23 @@ let closeButton = document.querySelector('.closebutton');
 
 
 
-$('.image-list>li>img').on('click' , function(){
-   let picpic = $(this).attr('src');
-   $('.modal img').attr('src' , picpic)
-
-   $('.modal').fadeIn();
-   
+$('.image-list>li>img').on('click',function () {
+  let picpic = $(this).attr('src'); 
+  let letter = $(this).attr('art');
+  $('.modal img').attr( 'src' , picpic );
+  $('.modal img').attr( 'art' , letter );
+  $('.modal').css('display' , 'block')
   
-})
+  
+});
 
+$('.modal').on('click' , function(){
+  $(this).css('display' , 'none')
+});
+
+
+
+  
  
 // //  
 // $(".img-list img").click(function() {
